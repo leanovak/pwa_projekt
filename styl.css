@@ -1,0 +1,131 @@
+body{
+	overflow-x: hidden;
+}
+main{
+	margin: 0 auto;
+	font-family: Oswald;
+	max-width: 1000px;
+	
+}
+#logo{
+	width: 200px;
+}
+nav{
+	position: relative;
+	left: 70px;
+	top: -25px;
+	font-weight: bold;
+	width: 60%;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	width: 20%;
+}
+a:hover {
+	color: #cc0000;
+}
+.poravnanje{
+	font-weight: bold;
+    clear: both;
+	
+}
+article{
+	display: block;
+}
+.clanak{
+	float: left;
+    width: 310px;
+    margin: 10px;
+    min-height: 330px;
+}
+.naslovClanka{
+	display: block;
+	width: 100%;
+}
+.slikaC{
+	width: 100%;
+	height: auto;
+}
+h1{
+	font-size: 40px;
+	padding: 10px;
+}
+.art{
+	width: 100%;
+}
+.podnaslov{
+	font-size: 12px;
+	color: #cc0000;
+	position: relative;
+	top: -5px;
+}
+.naslov{
+	font-size: 16px;
+	position: relative;
+	top: -18px;
+	color: black;
+}
+.link{
+	text-decoration: none;
+	color: black;
+}
+footer{
+	clear: both;
+	text-align: center;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+}
+content{
+	text-decoration: none;
+}
+content img{
+	margin-left: auto;
+ 	margin-right: auto;
+ 	display: block;
+}
+.lijevo{
+	width: 70%;
+	float: left;
+}
+.desno{
+	width: 20%;
+	float: right;
+	padding-top: 50px;
+	text-align: right;
+	color: lightgray;
+}
+.tekst{
+	clear: both;
+}
+#login{
+	text-align: center;
+	margin-top: 50px;
+}
+@media screen and (min-width: 840px) and (max-width: 1235px) {
+	main{
+		margin: 0 auto;
+		max-width: 800px;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 839px) {
+	main{
+		margin: 0 auto;
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.clanak{
+		clear: both;
+		width: auto;
+		margin: 10px;
+		min-height: 310px;
+	}
+	nav a{
+		display: block;
+	}
+}
